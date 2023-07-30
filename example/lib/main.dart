@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pw_validator/flutter_pw_validator.dart';
+import 'package:flutter_pw_validator_flexible/flutter_pw_validator.dart';
 
 void main() {
   runApp(MyApp());

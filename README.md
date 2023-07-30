@@ -26,7 +26,7 @@ flutter pub get
 ### 3- Usage
 #### First You have to import the file:
 ```dart
-import 'package:flutter_pw_validator/flutter_pw_validator.dart';
+import 'package:flutter_pw_validator_flexible/flutter_pw_validator.dart';
 ```
 #### And then just put it right under your password TextField and pass the controller to that:
 ```dart

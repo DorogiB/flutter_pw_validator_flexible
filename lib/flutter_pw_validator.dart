@@ -1,8 +1,8 @@
 library flutter_pw_validator;
 
 import 'package:flutter/material.dart';
-import 'package:flutter_pw_validator/Utilities/ConditionsHelper.dart';
-import 'package:flutter_pw_validator/Utilities/Validator.dart';
+import 'package:flutter_pw_validator_flexible/Utilities/Validator.dart';
+import 'package:flutter_pw_validator_flexible/Utilities/ConditionsHelper.dart';
 
 import 'Components/ValidationBarWidget.dart';
 import 'Components/ValidationTextWidget.dart';

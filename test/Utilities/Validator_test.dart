@@ -1,4 +1,4 @@
-import 'package:flutter_pw_validator/Utilities/Validator.dart';
+import 'package:flutter_pw_validator_flexible/Utilities/Validator.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

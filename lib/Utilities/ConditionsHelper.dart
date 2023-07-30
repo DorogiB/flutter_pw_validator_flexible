@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_pw_validator/Resource/Strings.dart';
+import 'package:flutter_pw_validator_flexible/Resource/Strings.dart';
 
 /// This class helps to recognize user selected condition and check them
 class ConditionsHelper {

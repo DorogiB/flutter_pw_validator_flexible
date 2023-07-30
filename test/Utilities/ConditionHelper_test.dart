@@ -1,5 +1,5 @@
-import 'package:flutter_pw_validator/Resource/Strings.dart';
-import 'package:flutter_pw_validator/Utilities/ConditionsHelper.dart';
+import 'package:flutter_pw_validator_flexible/Resource/Strings.dart';
+import 'package:flutter_pw_validator_flexible/Utilities/ConditionsHelper.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
