@@ -16,17 +16,17 @@ class ValidationTextWidget extends StatelessWidget {
       children: [
         new Container(
           width: SizeConfig.width! * 0.03,
-          height: SizeConfig.height! * 0.16,
+          height: SizeConfig.height! * 0.1,
           child: new CircleAvatar(
             backgroundColor: color,
           ),
         ),
         Padding(
-          padding: EdgeInsets.only(left: SizeConfig.height! * 0.03),
+          padding: EdgeInsets.only(left: SizeConfig.width! * 0.03),
           child: new Text(
             text.replaceFirst("-", value.toString()),
             style:
-                new TextStyle(fontSize: SizeConfig.height! * 0.16, color: color),
+                new TextStyle(fontSize: SizeConfig.height! * 0.1, color: color),
           ),
         )
       ],

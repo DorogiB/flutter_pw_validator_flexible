@@ -12,8 +12,8 @@ class ValidationBarComponent extends StatelessWidget {
     return Expanded(
       child: new Container(
         /// We Can set, width: double.maxFinite,
-        margin: EdgeInsets.symmetric(horizontal: SizeConfig.width! * 0.005),
-        height: SizeConfig.width! * 0.015,
+        margin: EdgeInsets.symmetric(horizontal: SizeConfig.height! * 0.025),
+        height: SizeConfig.height! * 0.1,
         decoration: new BoxDecoration(
             color: color,
             borderRadius: BorderRadius.all(Radius.circular(SizeConfig.width!))),
