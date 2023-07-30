@@ -16,7 +16,7 @@ class ValidationTextWidget extends StatelessWidget {
       children: [
         new Container(
           width: SizeConfig.width! * 0.03,
-          height: SizeConfig.height! * 0.03,
+          height: SizeConfig.height! * 0.16,
           child: new CircleAvatar(
             backgroundColor: color,
           ),
@@ -26,7 +26,7 @@ class ValidationTextWidget extends StatelessWidget {
           child: new Text(
             text.replaceFirst("-", value.toString()),
             style:
-                new TextStyle(fontSize: SizeConfig.height! * 0.04, color: color),
+                new TextStyle(fontSize: SizeConfig.height! * 0.16, color: color),
           ),
         )
       ],
