@@ -18,6 +18,7 @@ class FlutterPwValidator extends StatefulWidget {
       numericCharCount,
       specialCharCount;
   final Color defaultColor, successColor, failureColor;
+  final bool hideTextOnConditionMet;
   final double width, height;
   final Function onSuccess;
   final Function? onFail;
@@ -39,6 +40,7 @@ class FlutterPwValidator extends StatefulWidget {
       this.defaultColor = MyColors.gray,
       this.successColor = MyColors.green,
       this.failureColor = MyColors.red,
+      this.hideTextOnConditionMet = true,
       this.strings,
       this.onFail,
       this.key}) {
@@ -194,7 +196,9 @@ class FlutterPwValidatorState extends State<FlutterPwValidator> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
 
                 //Iterate through the condition map entries and generate new ValidationTextWidget for each item in Green or Red Color
-                children: _conditionsHelper.getter()!.entries.map((entry) {
+                children: _conditionsHelper.getter()!.entries.where((entry) => 
+                  !widget.hideTextOnConditionMet || _isFirstRun || !entry.value
+                ).map((entry) {
                   int? value;
                   if (entry.key == widget.translatedStrings.atLeast)
                     value = widget.minLength;
