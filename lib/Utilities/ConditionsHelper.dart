@@ -1,11 +1,10 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_pw_validator_flexible/Resource/Strings.dart';
 
 /// This class helps to recognize user selected condition and check them
 class ConditionsHelper {
   ConditionsHelper(this.strings);
 
-  final FlutterPwValidatorStrings strings;
+  final dynamic strings;
   Map<String, bool>? _selectedCondition;
 
   /// Recognize user selected condition from widget constructor to put them on map with their value
