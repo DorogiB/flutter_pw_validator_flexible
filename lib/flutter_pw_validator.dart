@@ -52,7 +52,7 @@ class FlutterPwValidator extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => new FlutterPwValidatorState();
 
-  FlutterPwValidatorStrings get translatedStrings =>
+  dynamic get translatedStrings =>
       this.strings ?? FlutterPwValidatorStrings();
 }
 
