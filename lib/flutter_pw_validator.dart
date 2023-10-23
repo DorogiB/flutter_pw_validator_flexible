@@ -23,7 +23,7 @@ class FlutterPwValidator extends StatefulWidget {
   final Function onSuccess;
   final Function? onFail;
   final TextEditingController controller;
-  final FlutterPwValidatorStrings? strings;
+  final dynamic strings;
   final Key? key;
 
   FlutterPwValidator(
